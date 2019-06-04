@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="referrer" content="no-referrer">
+    <title>畅销新品手机</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .allover{
+            width:100%;
+            margin: 0;
+            padding: 0;
+            background-color: #fccd72;
+        }
+        .topbar {
+            width: 100%;
+            height: 200px;
+            background-repeat: no-repeat;
+            background-image: url("../images/topbar.png");
+            background-size: cover;
+        }
+        .text0{
+            display: inline-block;
+            font-size: 20px;
+            color: #ffffff;
+            text-align: center;
+            width: 100%;
+
+        }
+        .box{
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .column{
+            margin: 0 0;
+            flex:1;
+        }
+
+        .items{
+            background-color: #fff;
+            border:solid 1px  #fff;
+            margin: 2px 2px;
+
+        }
+        .itemImage{
+            display: block;
+            text-align: center;
+            margin: 5px 5px 5px 5px;
+            width: 90%;
+        }
+        .text1{
+            color: #f51d5c;
+            font-size: 18px;
+            margin:2px 5px 2px 5px;
+
+        }
+        .text2{
+            color: #555555;
+            font-size: 10px;
+            margin:2px 5px 2px 5px;
+            width: 150px;
+            overflow: hidden;
+            -ms-text-overflow: ellipsis;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        button {
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+            -webkit-appearance: none;
+            display: block;
+            margin: 5px 5px 5px 5px;
+            width: 90%;
+            height: 20px;
+            color: #fff;
+            font-size: 10px;
+            border-radius:3px;
+            outline: none;
+            border: none;
+            background-color: #f51d5c;
+        }
+
+        a{
+            text-decoration:none
+        }
+    </style>
+</head>
+<body>
+<div class="allover">
+    <img  alt="" class="topbar"/>
+    <!--<p class="text0">畅销新品</p>-->
+    <div class="box">
+        <div class="column">
+            <div class="items" onclick="window.open('https://shop.10086.cn/goods/100_100_1072680_1052126.html')">
+                <img align="center" src="../images/test.png" class="itemImage" alt=""/>
+                <p class="text1">第一行</p>
+                <p class="text2">第二行</p>
+                <p class="text2">第三行</p>
+                <button>点击购买</button>
+            </div>
+
+            <div class="items" onclick="window.open('https://shop.10086.cn/goods/100_100_1072261_1051452.html')">
+                <img src="../images/test.png" class="itemImage" alt=""/>
+                <p class="text1">第一行</p>
+                <p class="text2">第二行</p>
+                <p class="text2">第三行</p>
+                <button>点击购买</button>
+            </div>
+            <div class="items" onclick="window.open('https://shop.10086.cn/goods/100_100_1071568_1050823.html?WT.ac=res_search_042_100_6a2e958e61bd4e9795ba5b3234fdd527_1071568')">
+                <img src="../images/test.png" class="itemImage" alt=""/>
+                <p class="text1">第一行</p>
+                <p class="text2">第二行</p>
+                <p class="text2">第三行</p>
+                <button>点击购买</button>
+            </div>
+            <div class="items" onclick="window.open('https://shop.10086.cn/goods/100_100_1069146_1051987.html?WT.ac=res_search_042_100_6a2e958e61bd4e9795ba5b3234fdd527_1069146')">
+                <img src="../images/test.png" class="itemImage" alt=""/>
+                <p class="text1">第一行</p>
+                <p class="text2">第二行</p>
+                <p class="text2">第三行</p>
+                <button>点击购买</button>
+            </div>
+
+        </div>
+
+        <div class="column">
+            <div class="items" onclick="window.open('https://shop.10086.cn/goods/100_100_1073793_1053670.html')">
+                <img src="../images/test.png" class="itemImage" alt=""/>
+                <p class="text1">第一行</p>
+                <p class="text2">第二行</p>
+                <p class="text2">第三行</p>
+                <button>点击购买</button>
+            </div>
+
+            <div class="items" onclick="window.open('https://shop.10086.cn/goods/100_100_1069151_1049703.html?WT.ac=res_search_042_100_6a2e958e61bd4e9795ba5b3234fdd527_1069151')">
+                <img src="../images/test.png" class="itemImage" alt=""/>
+                <p class="text1">第一行</p>
+                <p class="text2">第二行</p>
+                <p class="text2">第三行</p>
+                <button>点击购买</button>
+            </div>
+
+            <div class="items" onclick="window.open('https://shop.10086.cn/goods/100_100_1069147_1049689.html?WT.ac=res_search_042_100_6a2e958e61bd4e9795ba5b3234fdd527_1069147')">
+                <img src="../images/test.png" class="itemImage" alt=""/>
+                <p class="text1">第一行</p>
+                <p class="text2">第二行</p>
+                <p class="text2">第三行</p>
+                <button>点击购买</button>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+
+</body>
+</html>
